@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tienda de li &#x2728;</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <script src="js/main.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+<link rel="shortcut icon" href="images/icono.ico" />
+
+<body>
+  <div class="contenedor">
+    <div class="productos-contenedor seccion">
+      <div class="productos">
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="platano" class="imagen-producto platano" src="images/platano.png" alt="platano" draggable="true"
+              ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-platano" class="precio-producto">1.00€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="aguacate" class="imagen-producto aguacate" src="images/aguacate.png" alt="aguacate"
+              draggable="true" ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-aguacate" class="precio-producto">3.00€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="sandia" class="imagen-producto sandia" src="images/sandia.png" alt="sandia" draggable="true"
+              ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-sandia" class="precio-producto">2.00€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="leche" class="imagen-producto leche" src="images/leche.png" alt="leche" draggable="true"
+              ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-leche" class="precio-producto">0.59€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="batido-de-chocolate" class="imagen-producto lechechoco" src="images/lechechoco.png"
+              alt="lechechoco" ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-batido-de-chocolate" class="precio-producto">0.79€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="batido-de-fresa" class="imagen-producto lechefresa" src="images/lechefresa.png" alt="lechefresa"
+              draggable="true" ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-batido-de-fresa" class="precio-producto">0.79€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="agua" class="imagen-producto agua" src="images/agua.png" alt="agua" draggable="true"
+              ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-agua" class="precio-producto">0.30€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="bebida-de-melocoton" class="imagen-producto bebida melocoton" src="images/bebidamelocoton.png"
+              alt="bebidamelocoton" draggable="true" ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-bebida-de-melocoton" class="precio-producto">2.70€</h3>
+          </div>
+        </div>
+        <div class="producto">
+          <div class="contenedor-imagen-producto">
+            <img id="pan" class="imagen-producto pan" src="images/pan.png" alt="pan" draggable="true"
+              ondragstart="agarrar(event)">
+          </div>
+          <div class="contenedor-precio-producto">
+            <h3 id="precio-pan" class="precio-producto">0.50€</h3>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <div class="lista seccion">
+      <div class="contenedor-lista">
+        <div class="lineas">
+
+        </div>
+        <ul id="libreta" class="libreta">
+
+        </ul>
+      </div>
+      <div class="contenedor-carrito">
+        <img class="carrito" src="images/carrito.png" alt="carrito" ondragover="caer(event)" ondrop="meter(event)">
+      </div>
+    </div>
+
+    <div class="total seccion">
+      <div class="titulototal">
+        <h1>Total: <span id="precio-total">0€</span></h1>
+
+      </div>
+      <div class="imagenbolsa">
+        <img class="bolsafeliz" src="images/bolsafeliz.png" alt="bolsafeliz">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
